@@ -10,6 +10,8 @@ gem "therubyracer"
 
 gem "rails_12factor"
 
+gem "sqlite3"
+
 gem "devise"
 
 gem "twitter-bootstrap-rails"
