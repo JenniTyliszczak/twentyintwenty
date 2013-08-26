@@ -1,9 +1,16 @@
 <h1> Comments </h1>
 <br>
 <br>
-<p>Coming soon..</p>
+<%=link_to "Add a new comment", new_comment_path %>
+<br>
+<br>
+<% @comments.each do |comment| %>
+  <%= comment.name %> 
+  <%= comment.title %> <br>
+  <%= comment.text %> <br>
+
 <br>
 <br>
 <br>
-<br>
-<br>
+
+<% end %>

@@ -8,6 +8,8 @@ gem 'pg'
 
 gem "devise"
 
+gem "thin"
+
 gem "rails_12factor", group: :production
 
 gem "twitter-bootstrap-rails"
